@@ -6,10 +6,12 @@ Description: Re-export LC_* constants of the POSIX module
  .
  Resolve this by making sure that Locale::Gettext reexports the constants
  coming from the POSIX module.
+Origin: vendor, http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=479803#20
 Bug: http://rt.cpan.org/Public/Bug/Display.html?id=35680
 Bug-Debian: http://bugs.debian.org/479803
+Forwarded: http://rt.cpan.org/Public/Bug/Display.html?id=35680
 Author: Raphaël Hertzog <hertzog@debian.org>
-Origin: vendor, http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=479803#20
+Last-Update: 2011-07-16
 
 --- a/gettext.pm
 +++ b/gettext.pm

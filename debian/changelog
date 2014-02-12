@@ -1,3 +1,20 @@
+liblocale-gettext-perl (1.05-7) unstable; urgency=low
+
+  [ Steve McIntyre ]
+  * Configure perl C compilation for cross builds
+    + Initial patch from Peter Pearse <peter.pearse@linaro.org>
+    Closes: #633949
+
+  [ gregor herrmann ]
+  * Improvements to Steve's patch by Ansgar.
+  * Switch to source format 3.0 (quilt).
+  * Add /me to Uploaders.
+  * Set Standards-Version to 3.9.2 (no changes).
+  * Bump debhelper compatibility level to 8.
+  * debian/copyright: DEP5 format.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 16 Jul 2011 20:55:03 +0200
+
 liblocale-gettext-perl (1.05-6) unstable; urgency=low
 
   * The -d option of dh_perl was lost by mistake while converting to tiny

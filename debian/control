@@ -2,9 +2,10 @@ Source: liblocale-gettext-perl
 Section: perl
 Priority: required
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Uploaders: Raphaël Hertzog <hertzog@debian.org>, Niko Tyni <ntyni@debian.org>
-Standards-Version: 3.8.3
-Build-Depends: debhelper (>= 7.0.50~), quilt (>= 0.47-6)
+Uploaders: Raphaël Hertzog <hertzog@debian.org>, Niko Tyni <ntyni@debian.org>,
+ gregor herrmann <gregoa@debian.org>
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 8)
 Homepage: http://search.cpan.org/dist/gettext/gettext.pm
 Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/liblocale-gettext-perl/
 Vcs-Browser: http://svn.debian.org/viewsvn/pkg-perl/trunk/liblocale-gettext-perl/
@@ -13,7 +14,7 @@ Package: liblocale-gettext-perl
 Architecture: any
 Pre-Depends: ${perl:Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Using libc functions for internationalization in Perl
+Description: module using libc functions for internationalization in Perl
  The gettext module permits access from perl to the gettext() family of
  functions for retrieving message strings from databases constructed
  to internationalize software.

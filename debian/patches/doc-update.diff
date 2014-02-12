@@ -1,7 +1,8 @@
 Description: Fix documentation in manual page
-Author: Raphaël Hertzog <hertzog@debian.org>
 Bug-Debian: http://bugs.debian.org/175421
 Forwarded: http://rt.cpan.org/Public/Bug/Display.html?id=35680
+Author: Raphaël Hertzog <hertzog@debian.org>
+Last-Update: 2011-07-16
 
 --- a/gettext.pm
 +++ b/gettext.pm
